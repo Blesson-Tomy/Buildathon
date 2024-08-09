@@ -24,3 +24,137 @@ p{
 }
 
 /* Navbar Section Ends - pls dont cross 🥹 */
+
+/* Hero Section begins*/
+body{
+    background-color: #b66edd;
+    color: white;
+    text-align: center;
+    
+}
+
+#slidy{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.b{
+    display: flex;
+    flex-direction: row;
+}
+.b > h2{
+    width: 33.3333%;
+    padding: 40px;
+    color: black;
+}
+/*
+.carousel{
+    padding: 10px;
+}
+*/
+.b1{
+    background-color: beige;
+    margin-bottom: -8px;
+}
+
+.b2{
+    background-color: rgb(40, 163, 12);
+    margin-bottom: -8px;
+}
+
+.b3{
+    background-color: rgb(4, 72, 131);
+    margin-bottom: -8px;
+}
+
+
+/* Hero Section ends*/
+
+
+/* Sellers Section begins*/
+
+.sellers-summary{
+    background-color: aliceblue;
+    color: black;
+    height: 100vh;
+    padding: 20px;
+
+}
+
+.success-cards{
+    display: flex;
+    flex-direction: row;
+    
+    padding: 10px;
+
+   
+}
+
+.success-card{
+    width: 33.3333%;
+    padding: 5px;
+    margin: 15px;
+    
+   
+
+   
+}
+.success{
+    width: 100%;
+    height: 50vh;
+    padding: 20px;
+}
+
+.img-small{
+    width: 200px;
+    height: 200px;
+    padding-bottom: 15px;
+    
+}
+
+/* Sellers Section ends*/
+
+/* Acc Section begins*/
+
+.c1{
+    width: 50%;
+    padding: 10px;
+    
+}
+.c2{
+    width: 50%;
+    padding: 10px;
+    
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+.cont{
+    background-color: rgb(118, 110, 22);
+}
+
+/* Acc Section Ends*/
+
+.footer{
+    background-color: black;
+}
+
+
+
+@media screen and (max-width: 600px){
+    .b{
+        flex-direction: column;
+        justify-items: center;
+        display: grid;
+        
+    }
+    .b > h2{
+        width: 80%;
+        
+    }
+    
+}
