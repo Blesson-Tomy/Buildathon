@@ -1,0 +1,26 @@
+/* Navbar Section Starts */
+.navbar-nav{
+    margin-left: auto;
+}
+
+.join{
+    background-color: #0d0df0;
+    color: white;
+    border-radius: 5px;
+    margin: 0px 0px 20px 20px;
+    padding: 5px ;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.join:hover{
+    background-color: #0d0df0;
+    color: rgb(83, 236, 116);
+    
+}
+
+p{
+    margin-bottom: 0px;
+}
+
+/* Navbar Section Ends - pls dont cross 🥹 */
