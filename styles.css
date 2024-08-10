@@ -43,6 +43,37 @@ element.style {
     border-radius: 5px;
 }
 
+table{
+    border-collapse: collapse;
+    width:75%;
+    font-family:'Courier New', Courier, monospace;
+    margin: auto;
+
+    
+    
+}
+
+a{
+    text-decoration: none;
+}
+th{
+text-align: left;
+
+}
+tr{
+    border-bottom: 1px solid grey;
+    font-size: large;
+    
+}
+th{
+    padding: 15px;
+}
+td{
+    padding: 10px;
+    
+}
+
+
 /* Hero Section */
 .b {
     display: flex;
@@ -271,6 +302,10 @@ element.style {
     }
     .b2{
         text-align:center ;
+    }
+
+    .log{
+        width: 75%;
     }
 
 
