@@ -6,6 +6,10 @@ body {
 }
 
 /* Navbar */
+
+element.style {
+    padding-left: 0px;
+}
 .navbar {
     padding: 1rem;
 }
@@ -45,13 +49,24 @@ body {
     justify-content: space-around;
     padding: 2rem 1rem;
     background-color: #f5f5f5;
-}
-
-.b h2 {
     text-align: center;
     flex: 1;
     margin: 0 1rem;
 }
+
+.b1{
+    width: 33.33%;
+    text-align: center;
+}
+.b2{
+    width:33.33%;
+}
+
+.b3{
+    width:33.33%;
+}
+
+
 
 /* Sellers Section */
 .sellers-summary {
@@ -93,6 +108,7 @@ body {
     flex-wrap: wrap;
 }
 
+
 .success-card {
     max-width: 300px;
     flex: 1 1 100%;
@@ -106,6 +122,10 @@ body {
 .success-card img {
     max-width: 100px;
     margin-bottom: 1rem;
+}
+
+.a1{
+    text-align: center;
 }
 
 /* Contact Section */
@@ -137,6 +157,67 @@ body {
     text-align: center;
 }
 
+.log{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: auto;
+    border: 1px solid grey;
+    padding: 20px;
+    background-color: ivory;
+}
+
+#loginbutton{
+    margin: auto;
+    width: 40%;
+    border-radius: 0px;
+    padding: 10px;
+    margin-bottom: 40px;
+
+}
+
+#in{
+    border-radius: 10px;
+    border: solid grey 1px;
+    margin: auto;
+    width: 60%;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding: 10px;
+    
+    
+}
+
+.a1{
+    
+    padding: 20px;
+}
+.signin{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 20px;
+
+
+}
+
+#signin{
+    padding: 8px;
+    border: 1px solid grey;
+    width: 50%;
+    margin: auto;
+    text-decoration:solid;
+    margin-left: 5px;
+    
+}
+
+#loginbutton:hover{
+    background-color: rgb(243, 202, 209);
+}
+
+
+
 /* Responsive Styles */
 @media (max-width: 768px) {
     .b {
@@ -160,6 +241,7 @@ body {
     .navbar-text p {
         text-align: center;
     }
+
 }
 
 @media (max-width: 480px) {
@@ -181,5 +263,15 @@ body {
 
     .b h2 {
         font-size: 1.5rem;
+        text-align: center;
     }
+
+    .b1{
+        text-align: center;
+    }
+    .b2{
+        text-align:center ;
+    }
+
+
 }
