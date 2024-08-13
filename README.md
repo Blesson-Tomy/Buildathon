@@ -11,7 +11,7 @@ We aimed to create a website where middle aged women can monetise their hobbies 
 
 
 ## Team Members:
-1. [Alex George](https://github.com/CathyTomson)
+1. [Alex George](https://github.com/Alex-George1)
 2. [Blesson Karikulammalayil Tomy](https://github.com/blesson-tomy)
 3. [Cathy Tomson](https://github.com/CathyTomson)
 
